@@ -1,8 +1,4 @@
 import React, { useState } from 'react'
-import main from '../assets/main1.jpg';
-import section2bg from '../assets/new1.jpg';
-import create1 from '../assets/create1.jpg';
-import create2 from '../assets/create2.jpg';
 import { FaCloudUploadAlt } from 'react-icons/fa';
 
 const CreateYourDesign = () => {
@@ -21,12 +17,12 @@ const CreateYourDesign = () => {
 
     return (
         <div className=''>
-            <div className='bg-cover bg-center md:pt-40 pt-60 pb-10 md:-mt-20 -mt-40' style={{ backgroundImage: `url('${section2bg}')` }}>
+            <div className='bg-cover bg-center md:pt-40 pt-60 pb-10 md:-mt-20 -mt-40' style={{ backgroundImage: `url('https://res.cloudinary.com/df8vrgj1b/image/upload/v1729770076/assets/toc4fxv0n97liv7cyrne.jpg')` }}>
                 <h1 className='md:text-6xl text-3xl michroma-regular md:text-white text-gray-200 md:mt-40 px-3 md:p-0 mt-20'>Got your own <span className='text-red-800 md:text-white font-bold md:font-normal'>design</span> in mind?</h1>
 
                 <div className='flex justify-between mt-80 mb-20 bg-white md:overflow-visible overflow-hidden'>
                     <div className='md:w-1/2 md:ml-20 md:mr-80 bg-white px-5 pt-5 pb-10 -rotate-6 shadow-2xl z-10 overflow-hidden mt-40 md:mt-0'>
-                        <img src={create1}></img>
+                        <img src='https://res.cloudinary.com/df8vrgj1b/image/upload/v1729770071/assets/ucrmdgyefnpk2iiolhhu.jpg'></img>
                     </div>
                     <div className='md:w-1/2 z-20 '>
                         <h1 className='md:mt-10 mt-0 mb-5 md:text-3xl text-2xl montserrat-Italic pt-10 md:-ml-80 -ml-80 text-red-900 md:mr-0'>Wanna rock the same dress as your favorite celebrity?</h1>
@@ -83,7 +79,7 @@ const CreateYourDesign = () => {
                         </div>
                     </div>
                     <div className='md:w-1/2 md:mr-20 md:ml-80 bg-white px-5 pt-5 md:pb-10 rotate-6 shadow-2xl z-0'>
-                        <img src={create2}></img>
+                        <img src='https://res.cloudinary.com/df8vrgj1b/image/upload/v1729770068/assets/tqtixxxshjlsg1aug1cj.jpg'></img>
                     </div>
                 </div>
             </div>
