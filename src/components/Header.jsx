@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaRegCircleUser } from "react-icons/fa6";
-import logo from '../assets/logo.png';
 
 const Header = () => {
   const navigate = useNavigate();
@@ -32,7 +31,7 @@ const Header = () => {
       <div className='h-full mx-auto flex items-center justify-between px-4 md:px-20'>
         {/* Logo Section */}
         <div className='text-3xl font-bold cursor-pointer montserrat-Italic' onClick={() => navigate("/")}>
-          <img src={logo} className='h-24 md:h-24' alt="Logo" />
+          <img src='https://res.cloudinary.com/df8vrgj1b/image/upload/v1729770076/assets/bcuovhpp0ixqutluidlb.png' className='h-24 md:h-24' alt="Logo" />
         </div>
 
         <div className={`text-2xl cursor-pointer relative ml-40 md:hidden transition-colors duration-100 ${isScrolled ? 'text-black' : 'text-white'}`}>
